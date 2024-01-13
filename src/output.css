@@ -891,6 +891,10 @@ video {
   width: 440px;
 }
 
+.w-\[10px\] {
+  width: 10px;
+}
+
 .max-w-\[460px\] {
   max-width: 460px;
 }
@@ -1203,6 +1207,16 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pt-1 {
@@ -1803,6 +1817,14 @@ video {
 
 .hover\:opacity-50:hover {
   opacity: 0.5;
+}
+
+.hover\:opacity-90:hover {
+  opacity: 0.9;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 @media not all and (min-width: 1024px) {

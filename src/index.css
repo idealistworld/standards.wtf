@@ -28,6 +28,8 @@ body {
   background-color: #F2F35D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  position:fixed
 }
 
 code {
