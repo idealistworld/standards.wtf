@@ -12,7 +12,7 @@ export default function Home() {
                     <Button text='LOOKING FOR A BABY DADDY' type='guy'></Button>
                     <Button text='LOOKING FOR A BABY MAMA' type='girl'></Button>
                 </div>
-                <div class='rounded-2xl bg-white py-10 px-5 drop-shadow-[15px_15px_rgba(0,0,0,0.8)] border-black border-[9px] max-w-[430px] flex flex-col'>
+                <div class='max-sm:w-[80%] max-sm:mt-24 rounded-2xl bg-white py-10 px-5 drop-shadow-[15px_15px_rgba(0,0,0,0.8)] border-black border-[9px] max-w-[430px] flex flex-col'>
                     <img src={meme} ></img>
                     <p class='mt-12 text-xl leading-9 px-5'><span class = 'font-bold text-2xl'>20% of people died without getting married.</span>  Are you going to be one of them?  Probably if your standards are too high lol.</p>
                 </div>
