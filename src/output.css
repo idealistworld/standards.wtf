@@ -907,6 +907,10 @@ video {
   max-width: 460px;
 }
 
+.max-w-\[430px\] {
+  max-width: 430px;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -2193,5 +2197,13 @@ video {
 
   .lg\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .lg\:w-\[1\%\] {
+    width: 1%;
+  }
+
+  .lg\:w-\[\%\] {
+    width: %;
   }
 }
