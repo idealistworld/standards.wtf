@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className="outerlayer">
             <div class='rounded-xl flex items-center justify-center flex-wrap'>
-                <div class='lg:w-[400px] sm:mr-0 md:w-[70%] md:mr-20 lg:mr-48'>
+                <div class='lg:w-[400px] sm:mr-0 md:w-[20%] md:mr-20 lg:mr-48 flex flex-col flex-wrap'>
                     <h1 class='text-7xl font-black max-sm:text-center'>ARE YOUR STANDARDS <span class='italic underline'>TOO HIGH?</span></h1>
                     <p class = 'text-2xl mt-8 max-sm:text-center'>Click one of the buttons below to take see your level of delusional when it comes to finding your match.</p>
                     <Button text='LOOKING FOR A BABY DADDY' type='guy'></Button>
